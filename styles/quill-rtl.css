@@ -1,0 +1,77 @@
+/* styles/quill-rtl.css */
+
+.ql-editor {
+   direction: rtl !important;
+   text-align: right !important;
+   font-family: "IRANSans", sans-serif;
+   line-height: 3;
+   font-size: 14px;
+   direction: rtl;
+   text-align: right;
+   font-family: "IRANSans", sans-serif;
+   line-height: 2;
+   font-size: 14px;
+   border: 1px solid #3676b6;
+   display: block;
+   border-top: 1px solid #fff !important;
+   overflow-y: auto !important;
+   overflow-x: hidden !important;
+   height: 100% !important;
+   max-height: 200px;
+   border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.ql-editor.ql-blank::before {
+   text-align: right !important;
+   left: auto !important;
+   direction: rtl !important;
+   font-family: "IRANSans", sans-serif;
+}
+
+.ql-toolbar {
+   direction: ltr !important;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.5rem;
+   border-radius: 0.5rem 0.5rem 0 0;
+   background-color: #f9fafb;
+   border: 1px solid #3676b6 !important;
+}
+
+.ql-container {
+   direction: rtl !important;
+   overflow: hidden !important;
+   border: none !important;
+}
+
+.ql-editor p {
+   text-align: right !important;
+   direction: rtl !important;
+}
+
+.ql-editor li {
+   direction: rtl !important;
+   text-align: right !important;
+}
+
+.ql-editor ol,
+.ql-editor ul {
+   padding-right: 1.5em !important;
+   padding-left: 0 !important;
+   direction: rtl !important;
+   text-align: right !important;
+}
+
+.ql-editor ol > li::before {
+   margin-left: 0;
+   margin-right: 0.5em;
+   padding-left: 50px;
+   direction: rtl !important;
+}
+
+.ql-editor ul > li::before {
+   margin-left: 0;
+   margin-right: 0.5em;
+   padding-left: 50px;
+   direction: rtl !important;
+}
