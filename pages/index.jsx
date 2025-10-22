@@ -15,14 +15,24 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <>
-      <div className="bg-red-500">
-        <ul>
+      <div className="bg-red-200 p-4">
+        <ul className="flex gap-6">
           <li>
             <Link
               href="/demo/editor"
-              className={`${geistSans.variable} font-sans text-white`}
+              className={`${geistSans.variable} font-sans hover:underline`}
             >
               Editor
+            </Link>
+          </li>
+          <li>
+            <Link href="/demo/pie-chart" className="hover:underline">
+              Pie Chart
+            </Link>
+          </li>
+          <li>
+            <Link href="/demo/bar-chart" className="hover:underline">
+              Bar Chart
             </Link>
           </li>
         </ul>
