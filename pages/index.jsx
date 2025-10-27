@@ -35,6 +35,11 @@ export default function Home() {
               Bar Chart
             </Link>
           </li>
+          <li>
+            <Link href="/demo/table/checked-table" className="hover:underline">
+              Checked Table
+            </Link>
+          </li>
         </ul>
       </div>
     </>
